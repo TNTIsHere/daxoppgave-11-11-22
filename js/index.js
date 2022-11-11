@@ -159,7 +159,7 @@ loginForm.addEventListener('submit', (e) => {
     .catch(err => {
       console.log(err.message)
       loginForm.reset()
-      appendFailLogin.innerHTML = `<p>LMAOOOOO WRONG LOGIN HAHAHHAHAHHAH</p>`
+      appendFailLogin.innerHTML = `<p class="delete-login-text">LMAOOOOO WRONG LOGIN HAHAHHAHAHHAH</p>`
     })
 })
 //add or subtract number
